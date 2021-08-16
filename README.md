@@ -6,3 +6,4 @@ And at last enter the current price of the stock.
 Now press Tell Me button.
 And it will tell you whether you are gaining or losing accoring to the current price.
 Also, if the current price and initial price are same, then it will tell you no pain no gain that means you are neither gettinng any profit of loss.
+Start calculating by tapping on this link: https://rohillakartik6.github.io/Calculate-Stocks-Profit-Loss/ .
