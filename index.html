@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+                <link rel="stylesheet" href="style.css">
+                <title>Mark 14 - Stocks</title>
+            </head>
+            <body>
+                <div class="card text-center bg-primary mb-3 position-absolute top-50 start-50 translate-middle stock-box border-danger border-5">
+                <h1 class="card-header">Mark 14 - Stocks</h1>
+                <main>
+                    <label for="initial-price">Initial Price <input type="number" placeholder="Enter Initial Price" id="initial-price"></label>
+                    <label for="stock-quantity">Enter Stocks Quantity <input type="number" placeholder="Enter Stocks Quantity" id="stock-quantity"></label>
+                    <label for="current-price">Enter Current Price <input type="number" placeholder="Enter Current Price" id="current-price"></label>
+
+                <div class="d-grid gap-2">
+                    <button class="btn-primary" id="btn">Tell Me!!</button>
+                </div>
+           
+                    <div id="output-box" class="output"></div>
+                </div>
+                </main>
+            
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="main.js"></script>
+            </body>
+        </html>
